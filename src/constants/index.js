@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/ainet.png";
+import project2 from "../assets/projects/wheelchair.png";
+import project3 from "../assets/projects/portfolio.png";
+import project4 from "../assets/projects/sgi2.png";
 
 export const HERO_CONTENT = `I am 22 years old and started studying Computer Engineering at the Polytechnic Institute of Leiria (IPL) in 2020. I began developing an interest in programming and computer science at the age of 15, and since then, I have acquired a lot of knowledge and intend to keep learning more and more. I consider myself a very dedicated person, always open to new experiences, and I have an ease in working as part of a team. Throughout my academic journey, I have completed several projects that have helped me learn and apply previously acquired knowledge.`;
 
@@ -47,37 +47,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "CineMagic",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This project focused on developing a web application using the Laravel framework to manage movie sessions, theaters, and ticket sales, as well as control seat occupancy during the sessions. It was an enriching experience that provided me with profound learning and with which I strongly identified.",
+    technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Cadeira de Rodas com Inteligência Artificial",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project was my final course project, with the objective of developing a new web application on a Raspberry Pi using the Vue.js framework, which allowed for the control of an electric wheelchair's movements through voice commands utilizing Artificial Intelligence. This challenging project enabled me to expand and solidify my technical knowledge, effectively preparing me for the job market.",
+    technologies: ["HTML", "CSS", "Javascript", "Python", "Tensorflow", "Vue.Js"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, and contact information. The first project using react that helped me learn through this new framework.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "La Redoute Project",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A project in colaboration with La Redoute that was focused on developing a web page where the user could see an item and inspect it in real time and also could animate the item.",
+    technologies: ["Blend", "Javascript", "HTML", "CSS"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Ourém, Santarém",
+  phoneNo: "+351 910 538 227",
+  email: "luismanuelsantos2801@gmail.com",
 };

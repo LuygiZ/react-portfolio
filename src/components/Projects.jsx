@@ -11,7 +11,7 @@ const Projects = () => {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
             >
-                Projects
+                Projects Developed
             </motion.h1>
             <div>
                 {PROJECTS.map((project, index) => (
@@ -27,7 +27,7 @@ const Projects = () => {
                             <motion.img 
                                 src={project.image} 
                                 alt={project.title} 
-                                width={150} 
+                                width={350} 
                                 height={150} 
                                 className="mb-6 rounded"
                                 initial={{ opacity: 0, scale: 0.9 }}
