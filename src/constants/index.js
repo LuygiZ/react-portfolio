@@ -44,7 +44,7 @@ export const EXPERIENCES_PT = [
     year: "2017 - 2020",
     role: "Estudante de Ciências e Tecnologias",
     company: "Escola Básica e Secundária de Ourém",
-    description: `Onde a minha jornada começou e comecei a desenvolver minhas habilidades e soft skills. No meu 12º ano fui introduzido ao Pascal e ao pixel art na aula, e como um projeto paralelo comecei a olhar para HTML, CSS e até um pouco de JavaScript.`,
+    description: `Onde a minha jornada começou e comecei a desenvolver minhas habilidades e soft skills. No meu 12º ano fui introduzido ao Pascal e ao pixel art, e como um projeto paralelo comecei a olhar para HTML, CSS e até um pouco de JavaScript.`,
     technologies: ["Pascal", "HTML", "CSS", "Javascript"],
   },
 ];
@@ -96,7 +96,7 @@ export const PROJECTS_PT = [
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
   },
   {
-    title: "Cadeira de Rodas com Inteligência Artificial",
+    title: "Sistema de COmando por Voz para Cadeiras de Rodas com IA",
     image: project2,
     description:
       "Este projeto foi meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js, que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial. Este projeto desafiador permitiu-me expandir e solidificar o meu conhecimento técnico, preparando-me eficazmente para o mercado de trabalho.",

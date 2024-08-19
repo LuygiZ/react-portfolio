@@ -1,4 +1,4 @@
-import aboutImage from "../assets/LuisAbout.png";
+import aboutImage from "../assets/LuisAbout4.png";
 import { ABOUT_TEXT_PT, ABOUT_TEXT_EN } from "../constants";
 import { motion } from "framer-motion";
 import { useContext } from 'react';
@@ -21,21 +21,24 @@ const About = () => {
 
       <div className="flex flex-wrap lg:flex-nowrap">
         <motion.div 
-          className="w-full lg:w-1/2 flex items-center justify-center"
+          className="w-full lg:w-1/2 flex items-center justify-center relative"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: true }}> 
-          <motion.img 
-            src={aboutImage} 
-            alt="about" 
-            className="w-3/4 lg:w-2/3"
-            initial={{ scale: 0.9 }}
-            whileInView={{ scale: 1 }}
-            transition={{ duration: 0.8 }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-          />
+          viewport={{ once: true }}>
+          
+          <div className="relative w-3/4 lg:w-2/3">
+            <motion.img 
+              src={aboutImage} 
+              alt="about" 
+              className="w-full h-full object-cover"
+              initial={{ scale: 0.9 }}
+              whileInView={{ scale: 1 }}
+              transition={{ duration: 0.8 }}
+              whileHover={{ scale: 1.05 }}
+              viewport={{ once: true }}
+            />
+          </div>
         </motion.div>
 
         <motion.div 

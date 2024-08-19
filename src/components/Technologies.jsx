@@ -1,7 +1,9 @@
+import React, { useContext } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { LanguageContext } from '../context/LanguageContext'; // Importe o contexto
 
 const iconVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -17,9 +19,11 @@ const iconVariants = {
 };
 
 const Technologies = () => {
+  const { language } = useContext(LanguageContext); // Obtenha o idioma atual
+  
   return (
     <div className="border-b border-neutral-800 pb-24 lg:mb-35">
-      <h1 className="my-20 text-center text-4xl">Technologies</h1>
+      <h1 className="my-20 text-center text-4xl" > {language === 'PT' ? 'Tecnologias' : 'Technologies'} </h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         {[ 
           { Icon: RiReactjsLine, color: "#61DAFB" },
