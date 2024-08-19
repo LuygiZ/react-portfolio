@@ -1,7 +1,12 @@
-import { PROJECTS } from "../constants";
+import { PROJECTS_PT, PROJECTS_EN } from "../constants";
 import { motion } from "framer-motion";
+import { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Projects = () => {
+    const { language } = useContext(LanguageContext);
+    const PROJECTS = language === 'PT' ? PROJECTS_PT : PROJECTS_EN;
+
     return (
         <div className="border-b border-neutral-900 pb-4">
             <motion.h1 
@@ -11,7 +16,7 @@ const Projects = () => {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
             >
-                Projects Developed
+                {language === 'PT' ? 'Projetos Desenvolvidos' : 'Projects Developed'}
             </motion.h1>
             <div>
                 {PROJECTS.map((project, index) => (

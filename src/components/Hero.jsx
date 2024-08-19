@@ -1,8 +1,13 @@
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT_PT, HERO_CONTENT_EN } from "../constants";
 import profilePic from "../assets/LuisProfile3.png";
 import { motion } from "framer-motion";
+import { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Hero = () => {
+  const { language } = useContext(LanguageContext);
+  const HERO_CONTENT = language === 'PT' ? HERO_CONTENT_PT : HERO_CONTENT_EN;
+
   return (
     <div className="relative border-b border-neutral-900 pb-4 lg:mb-35">
       <motion.div 
@@ -36,7 +41,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
-              Student At Polytechnic Institute of Leiria
+              {language === 'PT' ? 'Estudante no Instituto Politécnico de Leiria' : 'Student At Polytechnic Institute of Leiria'}
             </motion.span>
             <motion.p 
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
@@ -63,7 +68,7 @@ const Hero = () => {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
               whileHover={{ scale: 1.05 }}
-              style={{ zIndex: -1 }}  // Ensure it doesn't overlap with navbar
+              style={{ zIndex: -1 }}
             />
           </div>
         </motion.div>

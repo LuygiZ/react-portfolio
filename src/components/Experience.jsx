@@ -1,7 +1,12 @@
-import { EXPERIENCES } from "../constants";
+import { EXPERIENCES_PT, EXPERIENCES_EN } from "../constants";
 import { motion } from "framer-motion";
+import { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Experience = () => {
+    const { language } = useContext(LanguageContext);
+    const EXPERIENCES = language === 'PT' ? EXPERIENCES_PT : EXPERIENCES_EN;
+
     return (
         <div className="border-b border-neutral-900 pb-4">
             <motion.h1 
@@ -11,7 +16,7 @@ const Experience = () => {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
             >
-                My Learning Journey
+                {language === 'PT' ? 'Meu Percurso Académico' : 'My Academic Journey'}
             </motion.h1>
             <div>
                 {EXPERIENCES.map((experience, index) => (
@@ -52,7 +57,6 @@ const Experience = () => {
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.6 }}
-                                viewport={{ once: true }}
                             >
                                 {experience.description}
                             </motion.p>
@@ -64,7 +68,6 @@ const Experience = () => {
                                         initial={{ opacity: 0, y: 10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: techIndex * 0.1 }}
-                                        viewport={{ once: true }}
                                     >
                                         {tech}
                                     </motion.span>

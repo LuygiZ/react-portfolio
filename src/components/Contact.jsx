@@ -1,7 +1,12 @@
-import { CONTACT } from "../constants";
+import { CONTACT_PT, CONTACT_EN } from "../constants";
 import { motion } from "framer-motion";
+import { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Contact = () => {
+    const { language } = useContext(LanguageContext);
+    const CONTACT = language === 'PT' ? CONTACT_PT : CONTACT_EN;
+
     return (
         <div className="border-b border-neutral-900 pb-20">
             <motion.h1
@@ -10,7 +15,9 @@ const Contact = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
-            >Get in Touch</motion.h1>
+            >
+                {language === 'PT' ? 'Entre em Contato' : 'Get in Touch'}
+            </motion.h1>
             <motion.div
                 className="text-center tracking-tighter"
                 initial={{ opacity: 0, scale: 0.9 }}
