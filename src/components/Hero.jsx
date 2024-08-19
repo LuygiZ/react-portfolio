@@ -14,23 +14,22 @@ const Hero = () => {
         className="flex flex-wrap lg:flex-nowrap"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-      >
+        transition={{ duration: 0.8 }}>
         <motion.div 
           className="w-full lg:w-1/2"
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <div className="flex flex-col items-center lg:items-start">
+
             <motion.h1 
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-            >
+              transition={{ duration: 1 }}>
               Luís Santos
             </motion.h1>
+
             <motion.span 
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 1.1 }}
@@ -39,26 +38,25 @@ const Hero = () => {
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.3 }}
-            >
-              {language === 'PT' ? 'Estudante no Instituto Politécnico de Leiria' : 'Student At Polytechnic Institute of Leiria'}
+              transition={{ duration: 1, delay: 0.3 }}>
+              {language === 'PT' ? 'Licenciado em Engenharia Informática' : "Bachelor's degree in Computer Engineering"}
             </motion.span>
+
             <motion.p 
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.6 }}
-            >
+              transition={{ duration: 1, delay: 0.6 }} >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </motion.div>
+
         <motion.div 
           className="w-full lg:w-1/2 lg:p-8 mt-8 lg:mt-0 relative z-5"
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <div className="flex justify-center lg:justify-end">
             <motion.img 
               src={profilePic} 
@@ -68,8 +66,7 @@ const Hero = () => {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
               whileHover={{ scale: 1.05 }}
-              style={{ zIndex: -1 }}
-            />
+              style={{ zIndex: -1 }}/>
           </div>
         </motion.div>
       </motion.div>

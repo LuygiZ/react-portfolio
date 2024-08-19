@@ -14,17 +14,16 @@ const Contact = () => {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-            >
+                viewport={{ once: true }}>
                 {language === 'PT' ? 'Entre em Contato' : 'Get in Touch'}
             </motion.h1>
+
             <motion.div
                 className="text-center tracking-tighter"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                viewport={{ once: true }}
-            >
+                viewport={{ once: true }}>
                 <motion.p
                     className="my-4"
                     initial={{ opacity: 0 }}

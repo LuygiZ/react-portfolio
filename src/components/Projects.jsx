@@ -14,10 +14,10 @@ const Projects = () => {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-            >
+                viewport={{ once: true }}>
                 {language === 'PT' ? 'Projetos Desenvolvidos' : 'Projects Developed'}
             </motion.h1>
+
             <div>
                 {PROJECTS.map((project, index) => (
                     <motion.div 
@@ -26,8 +26,7 @@ const Projects = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
-                        viewport={{ once: true }}
-                    >
+                        viewport={{ once: true }}>
                         <div className="w-full lg:w-1/4 flex justify-center">
                             <motion.img 
                                 src={project.image} 
@@ -38,8 +37,8 @@ const Projects = () => {
                                 initial={{ opacity: 0, scale: 0.9 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.2 }}
-                                viewport={{ once: true }}
-                            />
+                                viewport={{ once: true }}/>
+
                         </div>
                         <div className="w-full max-w-xl lg:w-3/4"> 
                             <motion.h6 
@@ -47,8 +46,7 @@ const Projects = () => {
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.4 }}
-                                viewport={{ once: true }}
-                            >
+                                viewport={{ once: true }}>
                                 {project.title}
                             </motion.h6>
                             <motion.p 
@@ -56,8 +54,7 @@ const Projects = () => {
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.6 }}
-                                viewport={{ once: true }}
-                            >
+                                viewport={{ once: true }}>
                                 {project.description}
                             </motion.p>
                             <div className="flex flex-wrap px-2 py-1">
@@ -68,8 +65,7 @@ const Projects = () => {
                                         initial={{ opacity: 0, y: 10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: techIndex * 0.1 }}
-                                        viewport={{ once: true }}
-                                    >
+                                        viewport={{ once: true }} >
                                         {tech}
                                     </motion.span>
                                 ))}

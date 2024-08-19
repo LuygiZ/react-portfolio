@@ -39,8 +39,7 @@ const Technologies = () => {
             variants={iconVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }} >
             <Icon className="text-7xl" style={{ color }} />
           </motion.div>
         ))}

@@ -14,10 +14,10 @@ const Experience = () => {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-            >
+                viewport={{ once: true }}>
                 {language === 'PT' ? 'Meu Percurso Académico' : 'My Academic Journey'}
             </motion.h1>
+
             <div>
                 {EXPERIENCES.map((experience, index) => (
                     <motion.div 
@@ -26,8 +26,7 @@ const Experience = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
-                        viewport={{ once: true }}
-                    >
+                        viewport={{ once: true }}>
                         <div className="w-full lg:w-1/4">
                             <motion.p 
                                 className="mb-2 text-sm text-neutral-400"
@@ -45,8 +44,7 @@ const Experience = () => {
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.4 }}
-                                viewport={{ once: true }}
-                            >
+                                viewport={{ once: true }}>
                                 {experience.role} - {" "}
                                 <span className="text-sm text-purple-100">
                                     {experience.company}
@@ -56,8 +54,7 @@ const Experience = () => {
                                 className="mb-4 text-neutral-400"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
-                                transition={{ duration: 0.6, delay: index * 0.1 + 0.6 }}
-                            >
+                                transition={{ duration: 0.6, delay: index * 0.1 + 0.6 }}>
                                 {experience.description}
                             </motion.p>
                             <div>
