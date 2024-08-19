@@ -96,7 +96,7 @@ export const PROJECTS_PT = [
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
   },
   {
-    title: "Sistema de COmando por Voz para Cadeiras de Rodas com IA",
+    title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA",
     image: project2,
     description:
       "Este projeto foi meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js, que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial. Este projeto desafiador permitiu-me expandir e solidificar o meu conhecimento técnico, preparando-me eficazmente para o mercado de trabalho.",
