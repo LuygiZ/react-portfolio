@@ -9,32 +9,39 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year:"Present", 
+    role:"To Be Determined",
+    company:"WithUs",
+    description: "In response to being contacted by withUs, a company specialized in consulting services and product custom design and delivery, I was offered challenges to further expand my knowledge and to introduce me to new technologies such as React, Quarkus, and Spring Boot.", 
+    technologies:["React", "Spring Boot", "Quarkus"]
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2022 - 2024",
+    role: "3º and 4º year of Informatic Engineering",
+    company: "Polytechnic Institute of Leiria",
+    description: `After exploring the IT field and giving it some thought, I decided to switch to the Information Systems (IS) track, where I stayed until the end of my studies. In this area, I was introduced to Artificial Intelligence, learned additional web development tools like Vue.js, further deepened my knowledge of Java and SQL, conducted exploratory data analysis, developed an Android application, and learned C#. For my final project, I chose to expand my Python skills even further.`,
+    technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "2º Year of Infomatic Engineering",
+    company: "Polytechnic Institute of Leiria",
+    description: `This year, I initially decided to pursue the IT field, where I was introduced to new concepts related to networking, Linux, some bash commands, and security. At the same time, I began learning web development tools like Laravel, continued deepening my knowledge of Java, and started studying SQL.`,
+    technologies: ["HTML", "CSS", "Laravel", "mySQL", "Oracle", "Linux", "SQL", "Java", "Blade"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "1º Year of Infomatic Engineering",
+    company: "Polytechnic Institute of Leiria",
+    description: `My first introduction to programming was with C and Java, accompanied by a strong foundation in mathematics and physics. I also have experience with IoT, assembly language, and Python, where I used the Spyder tool for mathematical applications.`,
+    technologies: ["C", "Java", "Assembly", "Python", "HTML", "PHP", "CSS"],
+  },
+  {
+    year: "2017 - 2020",
+    role: "Studied Science and Technology",
+    company: "Escola Básica e Secundária de Ourém",
+    description: `Where my journey began and started to develop my skills and soft skills. In my 12º year I was introduced to Pascal and pixel art in the class and as a side hustle I started to look at some html, css and even a little bit of javascript.`,
+    technologies: ["Pascal", "HTML", "CSS", "Javascript"],
   },
 ];
 
