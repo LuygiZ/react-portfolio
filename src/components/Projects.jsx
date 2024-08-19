@@ -23,11 +23,11 @@ const Projects = () => {
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                         viewport={{ once: true }}
                     >
-                        <div className="w-full lg:w-1/4">
+                        <div className="w-full lg:w-1/4 flex justify-center">
                             <motion.img 
                                 src={project.image} 
                                 alt={project.title} 
-                                width={350} 
+                                width={300} 
                                 height={150} 
                                 className="mb-6 rounded"
                                 initial={{ opacity: 0, scale: 0.9 }}
@@ -38,7 +38,7 @@ const Projects = () => {
                         </div>
                         <div className="w-full max-w-xl lg:w-3/4"> 
                             <motion.h6 
-                                className="mb-2 font-semibold"
+                                className="mb-2 font-semibold px-2 py-1"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.4 }}
@@ -47,7 +47,7 @@ const Projects = () => {
                                 {project.title}
                             </motion.h6>
                             <motion.p 
-                                className="mb-4 text-neutral-400"
+                                className="mb-4 text-neutral-400 px-2 py-1"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.6 }}
@@ -55,11 +55,11 @@ const Projects = () => {
                             >
                                 {project.description}
                             </motion.p>
-                            <div>
+                            <div className="flex flex-wrap px-2 py-1">
                                 {project.technologies.map((tech, techIndex) => (
                                     <motion.span 
                                         key={techIndex} 
-                                        className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium"
+                                        className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium"
                                         initial={{ opacity: 0, y: 10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: techIndex * 0.1 }}
