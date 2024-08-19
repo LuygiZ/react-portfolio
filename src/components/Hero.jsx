@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="relative border-b border-neutral-900 pb-4 lg:mb-35">
       <motion.div 
         className="flex flex-wrap lg:flex-nowrap"
         initial={{ opacity: 0 }}
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </motion.div>
         <motion.div 
-          className="w-full lg:w-1/2 lg:p-8 mt-8 lg:mt-0"
+          className="w-full lg:w-1/2 lg:p-8 mt-8 lg:mt-0 relative z-5"
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -63,12 +63,13 @@ const Hero = () => {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
               whileHover={{ scale: 1.05 }}
+              style={{ zIndex: -1 }}  // Ensure it doesn't overlap with navbar
             />
           </div>
         </motion.div>
       </motion.div>
     </div>
-  )
+  );
 }
 
 export default Hero;
