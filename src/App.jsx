@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Technologies from './components/Technologies'
 import Contact from './components/Contact'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        <Analytics />
       </div>
     </div>
   )
