@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 import Contact from './components/Contact';
-import FeedbackForm from './components/FeedbackForm';
 import { Analytics } from "@vercel/analytics/react";
 import { useContext } from 'react';
 import { LanguageContext } from './context/LanguageContext';
@@ -27,7 +26,6 @@ const App = () => {
         <Projects />
         <Contact />
         <Analytics />
-        <FeedbackForm />
       </div>
     </div>
   );
