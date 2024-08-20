@@ -107,7 +107,7 @@ export const PROJECTS_PT = [
     image: project3,
     description:
       "Um site de portfólio pessoal exibindo projetos, habilidades e informações de contato. O primeiro projeto usando React que me ajudou a aprender através deste novo framework.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion"],
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
   },
   {
     title: "Projeto La Redoute",
@@ -138,7 +138,7 @@ export const PROJECTS_EN = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. The first project using React that helped me learn through this new framework.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion"],
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
   },
   {
     title: "La Redoute Project",

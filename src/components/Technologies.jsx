@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular } from "react-icons/si";
+import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb } from "react-icons/si"; // Importe o ícone do MongoDB
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { LanguageContext } from '../context/LanguageContext'; // Importe o contexto
@@ -34,7 +34,8 @@ const Technologies = () => {
           { Icon: SiQuarkus, color: "#4695EB" },
           { Icon: SiTensorflow, color: "#FF6F00" },
           { Icon: SiOracle, color: "#F80000" },
-          { Icon: SiAngular, color: "#DD0031" }
+          { Icon: SiAngular, color: "#DD0031" },
+          { Icon: SiMongodb, color: "#47A248" } // Adicione o MongoDB aqui
         ].map(({ Icon, color }, index) => (
           <motion.div
             key={index}

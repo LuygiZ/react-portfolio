@@ -25,9 +25,10 @@ const App = () => {
         <Technologies />
         <Experience />
         <Projects />
+        <FeedbackForm />
         <Contact />
         <Analytics />
-        <FeedbackForm />
+
       </div>
     </div>
   );
