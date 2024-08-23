@@ -10,7 +10,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { useContext } from 'react';
 import { LanguageContext } from './context/LanguageContext';
 import PinkCursor from './components/PinkCursor';
-import KittyCursor from './components/KittyCursor';
 
 const App = () => {
   const { language } = useContext(LanguageContext); // Obter idioma atual
@@ -31,7 +30,6 @@ const App = () => {
         <Contact />
         <Analytics />
         <PinkCursor />
-        <KittyCursor />
       </div>
     </div>
   );
