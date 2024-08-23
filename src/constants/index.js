@@ -151,12 +151,10 @@ export const PROJECTS_EN = [
 
 export const CONTACT_PT = {
   address: "Ourém, Santarém",
-  phoneNo: "+351 910 538 227",
   email: "luismanuelsantos2801@gmail.com",
 };
 
 export const CONTACT_EN = {
   address: "Ourém, Santarém",
-  phoneNo: "+351 910 538 227",
   email: "luismanuelsantos2801@gmail.com",
 };

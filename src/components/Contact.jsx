@@ -31,13 +31,6 @@ const Contact = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     viewport={{ once: true }}
                 >{CONTACT.address}</motion.p>
-                <motion.p
-                    className="my-4"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ duration: 0.6, delay: 0.6 }}
-                    viewport={{ once: true }}
-                >{CONTACT.phoneNo} </motion.p>
                 <motion.a
                     href={`mailto:${CONTACT.email}`}
                     className="border-b-2 border-neutral-600 hover:border-purple-500 transition-colors duration-300"
