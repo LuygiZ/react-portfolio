@@ -30,35 +30,41 @@ export const EXPERIENCES_PT = [
     year: "Presente",
     role: "A Determinar",
     company: "WithUs",
-    description: "Em resposta a ser contactado pela withUs, uma empresa especializada em serviços de consultoria e design personalizado de produtos e entrega, foram-me oferecidos desafios para expandir ainda mais meus conhecimentos e para introduzir-me a novas tecnologias como React, Quarkus e Spring Boot.",
+    description: "Em resposta a ser contactado pela withUs, uma empresa especializada em serviços de consultoria e design personalizado de produtos e entrega, foram-me oferecidos desafios para expandir ainda mais os meus conhecimentos e para introduzir-me a novas tecnologias como React, Quarkus e Spring Boot.",
     technologies: ["React", "Spring Boot", "Quarkus"]
   },
   {
     year: "2022 - 2024",
     role: "3º e 4º ano de Engenharia Informática",
     company: "Instituto Politécnico de Leiria",
-    description: `Após explorar o campo de TI, decidi mudar para o percurso de Sistemas de Informação (SI), onde fiquei até o final dos meus estudos. Nesta área, fui apresentado à Inteligência Artificial, aprendi mais ferramentas de desenvolvimento web como Vue.js, aprofundei ainda mais meus conhecimentos em Java e SQL, realizei análises exploratórias de dados, desenvolvi uma aplicação Android e aprendi C#. Para o meu projeto final, escolhi expandir ainda mais minhas habilidades em Python.`,
+    description: `Após explorar o campo de TI, decidi mudar para o percurso de Sistemas de Informação (SI), onde fiquei até o final dos meus estudos. 
+    Nesta área, fui apresentado à Inteligência Artificial, aprendi mais ferramentas de desenvolvimento web como Vue.js, aprofundei ainda mais os meus conhecimentos no Java e SQL, 
+    realizei análises exploratórias de dados, desenvolvi uma aplicação Android e aprendi C#.
+     Para o meu projeto final, escolhi expandir ainda mais as minhas habilidades em Python.`,
     technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#"],
   },
   {
     year: "2021 - 2022",
     role: "2º Ano de Engenharia Informática",
     company: "Instituto Politécnico de Leiria",
-    description: `Neste ano, decidi inicialmente seguir o campo de TI, onde fui introduzido a novos conceitos relacionados a redes, Linux, alguns comandos bash e segurança. Ao mesmo tempo, comecei a aprender ferramentas de desenvolvimento web como Laravel, continuei aprofundando meus conhecimentos em Java e comecei a estudar SQL.`,
+    description: `Neste ano, decidi inicialmente seguir o campo de TI, onde fui introduzido a novos conceitos relacionados a redes, Linux, alguns comandos bash e segurança.
+    Ao mesmo tempo, comecei a aprender ferramentas de desenvolvimento web como Laravel, continuei aprofundando os meus conhecimentos no Java e comecei a estudar SQL.`,
     technologies: ["HTML", "CSS", "Laravel", "MySQL", "Oracle", "Linux", "SQL", "Java", "Blade"],
   },
   {
     year: "2020 - 2021",
     role: "1º Ano de Engenharia Informática",
     company: "Instituto Politécnico de Leiria",
-    description: `A minha primeira introdução à programação na universidade foi com C e Java, acompanhada de uma forte base em matemática e física. Também tenho experiência com IoT, linguagem assembly e Python, onde utilizei a ferramenta Spyder para aplicações matemáticas.`,
+    description: `A minha primeira introdução à programação na universidade foi com C e Java, acompanhada de uma forte base em matemática e física.
+    Também tenho experiência com IoT, linguagem assembly e Python, onde utilizei a ferramenta Spyder para aplicações matemáticas.`,
     technologies: ["C", "Java", "Assembly", "Python", "HTML", "PHP", "CSS"],
   },
   {
     year: "2017 - 2020",
     role: "Estudante de Ciências e Tecnologias",
     company: "Escola Básica e Secundária de Ourém",
-    description: `Onde a minha jornada começou e comecei a desenvolver minhas habilidades e soft skills. No meu 12º ano fui introduzido ao Pascal e ao pixel art, e como um projeto paralelo comecei a olhar para HTML, CSS e até um pouco de JavaScript.`,
+    description: `Onde a minha jornada começou e comecei a desenvolver as minhas habilidades e soft skills.
+    No meu 12º ano fui introduzido ao Pascal e à pixel art, e como um projeto paralelo comecei a olhar para HTML, CSS e até um pouco de JavaScript.`,
     technologies: ["Pascal", "HTML", "CSS", "Javascript"],
   },
 ];
@@ -89,7 +95,8 @@ export const EXPERIENCES_EN = [
     year: "2020 - 2021",
     role: "1st Year of Computer Engineering",
     company: "Polytechnic Institute of Leiria",
-    description: `My first introduction to programming was with C and Java, accompanied by a strong foundation in mathematics and physics. I also have experience with IoT, assembly language, and Python, where I used the Spyder tool for mathematical applications.`,
+    description: `My first introduction to programming was with C and Java, accompanied by a strong foundation in mathematics and physics. 
+    I also have experience with IoT, assembly language, and Python, where I used the Spyder tool for mathematical applications.`,
     technologies: ["C", "Java", "Assembly", "Python", "HTML", "PHP", "CSS"],
   },
   {
@@ -113,7 +120,9 @@ export const PROJECTS_PT = [
     title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA",
     image: project2,
     description:
-      "Este projeto foi meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js, que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial. Este projeto desafiador permitiu-me expandir e solidificar o meu conhecimento técnico, preparando-me eficazmente para o mercado de trabalho.",
+       `Este projeto foi o meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js,
+        que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial. 
+        Este projeto desafiador permitiu-me expandir e solidificar o meu conhecimento técnico, preparando-me eficazmente para o mercado de trabalho.`,
     technologies: ["HTML", "CSS", "Javascript", "Python", "Tensorflow", "Vue.Js"],
   },
   {
