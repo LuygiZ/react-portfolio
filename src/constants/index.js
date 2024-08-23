@@ -3,13 +3,27 @@ import project2 from "../assets/projects/wheelchair.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/sgi2.png";
 
-export const HERO_CONTENT_PT = `Tenho 22 anos e comecei a estudar Engenharia Informática no Instituto Politécnico de Leiria (IPL) em 2020. Comecei a desenvolver interesse em programação e informática aos 15 anos, e desde então, adquiri muitos conhecimentos e pretendo continuar a aprender cada vez mais. Considero-me uma pessoa muito dedicada, sempre aberta a novas experiências e tenho facilidade em trabalhar em equipa. Ao longo do meu percurso académico, realizei vários projetos que me ajudaram a aprender e aplicar os conhecimentos previamente adquiridos.`;
+export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
+ O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
+ com um forte desejo de continuar a aprender e a evoluir. 
+ Considero-me uma pessoa profundamente dedicada, com uma notável facilidade para trabalhar em equipa, sempre recetivo a novas experiências e desafios. 
+ Ao longo do meu percurso académico, tive a oportunidade de participar em diversos projetos que me permitiram não só consolidar, mas também aplicar, os conhecimentos adquiridos.`;
 
-export const HERO_CONTENT_EN = `I am 22 years old and started studying Computer Engineering at the Polytechnic Institute of Leiria (IPL) in 2020. I began developing an interest in programming and computer science at the age of 15, and since then, I have acquired a lot of knowledge and intend to keep learning more and more. I consider myself a very dedicated person, always open to new experiences, and I have an ease in working as part of a team. Throughout my academic journey, I have completed several projects that have helped me learn and apply previously acquired knowledge.`;
+export const HERO_CONTENT_EN = `At 22 years old, I enrolled at the Polytechnic Institute of Leiria (IPL) in 2020, where I pursued a degree in Computer Engineering.
+ My interest in programming and computing emerged at the age of 15, and since then, 
+ I have been deepening my knowledge in this field, with a strong desire to continue learning and evolving. 
+ I consider myself a highly dedicated person, with a remarkable ability to work in a team, always open to new experiences and challenges. 
+ Throughout my academic journey, I have had the opportunity to participate in various projects that have allowed me not only to consolidate but also to apply the knowledge I have acquired.`;
 
-export const ABOUT_TEXT_PT = `Sou recém-formado em engenharia informática com uma forte paixão e dedicação para criar aplicações web amigáveis e eficientes. Tenho também um grande interesse em desenvolver projetos relacionados com machine learning, inteligência artificial e IoT. Trabalhei com uma variedade de tecnologias e estive sempre totalmente comprometido e motivado com todos os projetos em que estive envolvido durante a universidade. Além da programação, gosto de me manter ativo e explorar novas tecnologias. Quando não estou no computador, gosto de manter a forma e treinar regularmente.`;
+export const ABOUT_TEXT_PT = `Sou recém-formado em engenharia informática com uma forte paixão e dedicação para criar aplicações web amigáveis e eficientes. 
+Tenho também um grande interesse em desenvolver projetos relacionados com machine learning, inteligência artificial e IoT. 
+Ao longo do meu percurso académico, trabalhei com uma variedade de tecnologias e estive sempre totalmente comprometido e motivado com todos os projetos em que estive envolvido.
+Além da programação, gosto de me manter ativo e explorar novas tecnologias. Quando não estou no computador, gosto de manter a forma e treinar regularmente.`;
 
-export const ABOUT_TEXT_EN = `I am a recent computer engineering graduate with a strong passion and dedication for creating user-friendly and efficient web applications. I also have a deep interest in developing projects related to machine learning, artificial intelligence, and IoT. I have worked with a variety of technologies and have always been fully committed to every project I was involved in during university. Beyond coding, I enjoy staying active and exploring new technologies. When I'm not at the computer, I like to keep fit and train regularly.`;
+export const ABOUT_TEXT_EN = `I am a recent computer engineering graduate with a strong passion and dedication for creating user-friendly and efficient web applications. 
+I also have a deep interest in developing projects related to machine learning, artificial intelligence, and IoT. 
+I have worked with a variety of technologies and have always been fully committed to every project I was involved in during university. 
+Beyond coding, I enjoy staying active and exploring new technologies. When I'm not at the computer, I like to keep fit and train regularly.`;
 
 export const EXPERIENCES_PT = [
   {
