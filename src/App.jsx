@@ -9,7 +9,6 @@ import FeedbackForm from './components/FeedbackForm';
 import { Analytics } from "@vercel/analytics/react";
 import { useContext } from 'react';
 import { LanguageContext } from './context/LanguageContext';
-import PinkCursor from './components/PinkCursor';
 
 const App = () => {
   const { language } = useContext(LanguageContext); // Obter idioma atual
@@ -29,7 +28,7 @@ const App = () => {
         <FeedbackForm />
         <Contact />
         <Analytics />
-        <PinkCursor />
+
       </div>
     </div>
   );
