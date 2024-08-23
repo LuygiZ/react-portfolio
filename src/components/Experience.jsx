@@ -15,7 +15,7 @@ const Experience = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}>
-                {language === 'PT' ? 'O meu Percurso Académico' : 'My Academic Journey'}
+                {language === 'PT' ? 'Percurso Académico' : 'Academic Journey'}
             </motion.h1>
 
             <div>
