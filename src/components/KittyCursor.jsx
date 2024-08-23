@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import cursorImage from '../assets/cursor.png';
 
 const AmongUsCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -32,7 +31,7 @@ const AmongUsCursor = () => {
 
   return (
     <img
-      src={cursorImage} // Substitua pelo caminho da sua imagem
+      src="../src/assets/cursor.png" // Substitua pelo caminho da sua imagem
       alt="Among Us Character"
       style={{
         position: 'absolute',
