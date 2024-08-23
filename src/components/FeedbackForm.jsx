@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { LanguageContext } from '../context/LanguageContext'; // Importa o contexto de linguagem
+import Lottie from 'react-lottie';
+import { LanguageContext } from '../context/LanguageContext';
+import fireworksAnimation from '../animations/airplane.json'; // Importa a animação de fogos de artificio
 
 const FeedbackForm = () => {
-  const { language } = useContext(LanguageContext); // Obtém o idioma atual do contexto
+  const { language } = useContext(LanguageContext);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [rating, setRating] = useState(5);
@@ -14,8 +16,6 @@ const FeedbackForm = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const feedbacksPerPage = 4;
-
-  // URL do backend no Vercel
   const API_URL = "https://portfolio-forms.vercel.app/api";
 
   useEffect(() => {
@@ -55,12 +55,11 @@ const FeedbackForm = () => {
         setRating(5);
         setMessage('');
         setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 3000);
+        setTimeout(() => setSubmitted(false), 5000); // Duração mais longa para a animação
       })
       .catch(err => console.error('Error submitting feedback:', err));
   };
 
-  // Textos em Português e Inglês
   const texts = {
     PT: {
       title: "Deixe a sua Avaliação",
@@ -89,16 +88,12 @@ const FeedbackForm = () => {
   };
 
   const currentText = texts[language];
-
-  // Calcula o índice do primeiro e do último feedbacks da página atual
   const indexOfLastFeedback = currentPage * feedbacksPerPage;
   const indexOfFirstFeedback = indexOfLastFeedback - feedbacksPerPage;
   const currentFeedbacks = feedbacks.slice(indexOfFirstFeedback, indexOfLastFeedback);
 
-  // Função para mudar de página
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  // Função para renderizar as setas de navegação
   const renderPaginationArrows = () => {
     return (
       <div className="flex justify-center mt-4">
@@ -120,6 +115,15 @@ const FeedbackForm = () => {
     );
   };
 
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: fireworksAnimation,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+
   return (
     <div className="flex flex-wrap lg:flex-nowrap">
       <motion.div
@@ -134,7 +138,10 @@ const FeedbackForm = () => {
         </p>
 
         {submitted ? (
-          <p className="text-center text-green-400">{currentText.thanksMessage}</p>
+          <div className="flex flex-col items-center">
+            <p className="text-center text-green-400">{currentText.thanksMessage}</p>
+            <Lottie options={defaultOptions} height={200} width={200} />
+          </div>
         ) : (
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
@@ -226,7 +233,7 @@ const FeedbackForm = () => {
           <p className="text-center text-gray-400">{currentText.noFeedbacksMessage}</p>
         )}
 
-        {renderPaginationArrows()} {/* Renderizando as setas de paginação */}
+        {renderPaginationArrows()}
       </motion.div>
     </div>
   );
