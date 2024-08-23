@@ -30,3 +30,8 @@
 .delay-6 { animation-delay: 1.2s; }
 .delay-7 { animation-delay: 1.4s; }
 .delay-8 { animation-delay: 1.6s; }
+
+
+body {
+  cursor: none;
+}
