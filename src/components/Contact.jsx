@@ -2,13 +2,24 @@ import { CONTACT_PT, CONTACT_EN } from "../constants";
 import { motion } from "framer-motion";
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
+import Lottie from 'react-lottie';
+import emailAnimation from '../animations/email.json';
 
 const Contact = () => {
     const { language } = useContext(LanguageContext);
     const CONTACT = language === 'PT' ? CONTACT_PT : CONTACT_EN;
 
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: emailAnimation,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
+
     return (
-        <div className="border-b border-neutral-900 pb-20">
+        <div className="relative border-b border-neutral-900 pb-20">
             <motion.h1
                 className="my-10 text-center text-4xl"
                 initial={{ opacity: 0, y: -20 }}
@@ -42,6 +53,10 @@ const Contact = () => {
                     {CONTACT.email}
                 </motion.a>
             </motion.div>
+
+            <div className="absolute top-0 right-0 transform">
+                <Lottie options={defaultOptions} height={200} width={250} />
+            </div>
         </div>
     );
 }
