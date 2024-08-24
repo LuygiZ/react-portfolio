@@ -21,32 +21,36 @@ const About = () => {
 
   return (
     <div className="relative border-b border-neutral-900 pb-4">
-      <motion.h1 
+      <motion.h1
         className="my-10 text-center text-4xl"
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}>
+        initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}>
         {language === 'PT' ? 'Sobre' : 'About'} <span className="text-neutral-500"> {language === 'PT' ? 'Mim' : 'Me'}</span>
       </motion.h1>
 
       {/* Animação ao lado do título "Sobre Mim" */}
-      <div className="absolute top-0 right-0 mt-10 mr-10">
+      <motion.div className="absolute top-0 right-0 mt-10 mr-10" 
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}>
         <Lottie options={defaultOptions} height={200} width={200} />
-      </div>
+      </motion.div>
 
       <div className="flex flex-wrap lg:flex-nowrap">
-        <motion.div 
+        <motion.div
           className="w-full lg:w-1/2 flex items-center justify-center relative"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}>
-          
+
           <div className="relative w-3/4 lg:w-2/3">
-            <motion.img 
-              src={aboutImage} 
-              alt="about" 
+            <motion.img
+              src={aboutImage}
+              alt="about"
               className="w-full h-full object-cover"
               initial={{ scale: 0.9 }}
               whileInView={{ scale: 1 }}
@@ -57,14 +61,14 @@ const About = () => {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="w-full lg:w-1/2 flex items-center"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}>
           <div className="px-8 lg:px-16">
-            <motion.p 
+            <motion.p
               className="my-2 max-w-xl py-6"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
