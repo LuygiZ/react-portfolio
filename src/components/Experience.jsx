@@ -27,7 +27,7 @@ const Experience = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                         viewport={{ once: true }}>
-                        <div className="w-full lg:w-1/4">
+                        <div className="w-full lg:w-1/5">
                             <motion.p 
                                 className="mb-2 text-sm text-neutral-400"
                                 initial={{ opacity: 0 }}
