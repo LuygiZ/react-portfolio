@@ -2,6 +2,7 @@ import project1 from "../assets/projects/ainet.png";
 import project2 from "../assets/projects/wheelchair.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/sgi2.png";
+import project5 from "../assets/projects/Fibonacci.png";
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
@@ -139,6 +140,13 @@ export const PROJECTS_PT = [
       "Um projeto em colaboração com a La Redoute que foi focado no desenvolvimento de uma página web onde o usuário poderia ver um item e inspecioná-lo em tempo real, além de poder animar o item.",
     technologies: ["Blend", "Javascript", "HTML", "CSS"],
   },
+  {
+    title: "Calculadora Fibonacci",
+    image: project5,
+    description:
+      "Um projeto de inicialização ás ferramentas Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
+    technologies: ["Quarkus", "Spring Boot", "Java"],
+  },
 ];
 
 export const PROJECTS_EN = [
@@ -169,6 +177,13 @@ export const PROJECTS_EN = [
     description:
       "A project in collaboration with La Redoute that was focused on developing a web page where the user could see an item and inspect it in real time, and also could animate the item.",
     technologies: ["Blend", "Javascript", "HTML", "CSS"],
+  },
+  {
+    title: "Fibonacci Calculator",
+    image: project5,
+    description:
+      "A project to initialize the Quarkus and Spring Boot tools with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
+    technologies: ["Quarkus", "Spring Boot", "Java"],
   },
 ];
 
