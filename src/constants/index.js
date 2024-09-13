@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/ainet.png";
 import project2 from "../assets/projects/wheelchair.png";
 import project3 from "../assets/projects/portfolio.png";
-import project4 from "../assets/projects/sgi2.png";
+import project4 from "../assets/projects/GJF.png";
 import project5 from "../assets/projects/Fibonacci.png";
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
@@ -116,29 +116,32 @@ export const PROJECTS_PT = [
     description:
       "Este projeto focou-se no desenvolvimento de uma aplicação web utilizando o framework Laravel para gerir sessões de filmes, teatros e vendas de ingressos, bem como controlar a ocupação dos assentos durante as sessões. Foi uma experiência enriquecedora que me proporcionou um aprendizado profundo e com a qual me identifiquei fortemente.",
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
+    link:null,
   },
   {
     title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA",
     image: project2,
     description:
        `Este projeto foi o meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js,
-        que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial. 
-        Este projeto desafiador permitiu-me expandir e solidificar o meu conhecimento técnico, preparando-me eficazmente para o mercado de trabalho.`,
+        que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial.`,
     technologies: ["HTML", "CSS", "Javascript", "Python", "Tensorflow", "Vue.Js"],
+    link:null,
   },
   {
     title: "Website de Portfólio",
     image: project3,
     description:
-      "Um site de portfólio pessoal exibindo projetos, habilidades e informações de contato. O primeiro projeto usando React que me ajudou a aprender através deste novo framework.",
+      "Um site de portfólio pessoal para exibir os meus projetos, habilidades e informações de contato. O primeiro projeto usando React que me ajudou a aprender através desta nova framework.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
+    link:null,
   },
   {
-    title: "Projeto La Redoute",
+    title: "Projeto Grupo de Jovens de Fornos",
     image: project4,
     description:
-      "Um projeto em colaboração com a La Redoute que foi focado no desenvolvimento de uma página web onde o usuário poderia ver um item e inspecioná-lo em tempo real, além de poder animar o item.",
-    technologies: ["Blend", "Javascript", "HTML", "CSS"],
+      "Um site do Grupo Jovem de Fornos desenvolvido para apresentar informações sobre um grupo de jovens que organiza atividades e eventos em Fornos, Santa Maria da Feira. O objetivo principal é reunir jovens para partilhar experiências, promover a fé e o envolvimento comunitário. ",
+    technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
+    link:"https://grupojovensfornos.vercel.app/",
   },
   {
     title: "Calculadora Fibonacci",
@@ -146,6 +149,7 @@ export const PROJECTS_PT = [
     description:
       "Um projeto de inicialização ás ferramentas Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
     technologies: ["Quarkus", "Spring Boot", "Java"],
+    link:null,
   },
 ];
 
@@ -156,6 +160,7 @@ export const PROJECTS_EN = [
     description:
       "This project focused on developing a web application using the Laravel framework to manage movie sessions, theaters, and ticket sales, as well as control seat occupancy during the sessions. It was an enriching experience that provided me with profound learning and with which I strongly identified.",
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
+    link:null,
   },
   {
     title: "AI-Powered Wheelchair",
@@ -163,6 +168,7 @@ export const PROJECTS_EN = [
     description:
       "This project was my final course project, with the objective of developing a new web application on a Raspberry Pi using the Vue.js framework, which allowed for the control of an electric wheelchair's movements through voice commands utilizing Artificial Intelligence. This challenging project enabled me to expand and solidify my technical knowledge, effectively preparing me for the job market.",
     technologies: ["HTML", "CSS", "Javascript", "Python", "Tensorflow", "Vue.Js"],
+    link:null,
   },
   {
     title: "Portfolio Website",
@@ -170,13 +176,15 @@ export const PROJECTS_EN = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. The first project using React that helped me learn through this new framework.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
+    link:null,
   },
   {
-    title: "La Redoute Project",
+    title: "Grupo de Jovens de Fornos Project",
     image: project4,
-    description:
-      "A project in collaboration with La Redoute that was focused on developing a web page where the user could see an item and inspect it in real time, and also could animate the item.",
-    technologies: ["Blend", "Javascript", "HTML", "CSS"],
+    description: 
+      "A website for the Grupo Jovem de Fornos developed to provide information about a youth group organizing activities and events in Fornos, Santa Maria da Feira. The main goal is to bring young people together to share experiences, promote faith, and encourage community involvement.",
+    technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
+    link:"https://grupojovensfornos.vercel.app/",
   },
   {
     title: "Fibonacci Calculator",
@@ -184,6 +192,7 @@ export const PROJECTS_EN = [
     description:
       "A project to initialize the Quarkus and Spring Boot tools with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
     technologies: ["Quarkus", "Spring Boot", "Java"],
+    link:null,
   },
 ];
 

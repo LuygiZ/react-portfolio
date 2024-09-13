@@ -38,17 +38,33 @@ const Projects = () => {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 + 0.2 }}
                                 viewport={{ once: true }}/>
-
                         </div>
+
                         <div className="w-full max-w-xl lg:w-3/4"> 
-                            <motion.h6 
-                                className="mb-2 font-semibold px-2 py-1"
-                                initial={{ opacity: 0 }}
-                                whileInView={{ opacity: 1 }}
-                                transition={{ duration: 0.6, delay: index * 0.1 + 0.4 }}
-                                viewport={{ once: true }}>
-                                {project.title}
-                            </motion.h6>
+                            <div className="flex items-center mb-2 px-2 py-1">
+                                <motion.h6 
+                                    className="font-semibold"
+                                    initial={{ opacity: 0 }}
+                                    whileInView={{ opacity: 1 }}
+                                    transition={{ duration: 0.6, delay: index * 0.1 + 0.4 }}
+                                    viewport={{ once: true }}>
+                                    {project.title}
+                                </motion.h6>
+
+                                {project.link && (
+                                    <motion.p 
+                                        className="ml-4 text-blue-500"
+                                        initial={{ opacity: 0 }}
+                                        whileInView={{ opacity: 1 }}
+                                        transition={{ duration: 0.6, delay: index * 0.1 + 0.5 }}
+                                        viewport={{ once: true }}>
+                                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                            {language === 'PT' ? 'Visita o site aqui' : 'Visit the site here'}
+                                        </a>
+                                    </motion.p>
+                                )}
+                            </div>
+
                             <motion.p 
                                 className="mb-4 text-neutral-400 px-2 py-1"
                                 initial={{ opacity: 0 }}
@@ -57,6 +73,7 @@ const Projects = () => {
                                 viewport={{ once: true }}>
                                 {project.description}
                             </motion.p>
+
                             <div className="flex flex-wrap px-2 py-1">
                                 {project.technologies.map((tech, techIndex) => (
                                     <motion.span 
@@ -65,7 +82,7 @@ const Projects = () => {
                                         initial={{ opacity: 0, y: 10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: techIndex * 0.1 }}
-                                        viewport={{ once: true }} >
+                                        viewport={{ once: true }}>
                                         {tech}
                                     </motion.span>
                                 ))}
