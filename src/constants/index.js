@@ -1,8 +1,9 @@
-import project1 from "../assets/projects/ainet.png";
-import project2 from "../assets/projects/wheelchair.png";
-import project3 from "../assets/projects/portfolio.png";
-import project4 from "../assets/projects/GJF.png";
-import project5 from "../assets/projects/Fibonacci.png";
+import projectAiNet from "../assets/projects/ainet.png";
+import projectWheelChair from "../assets/projects/wheelchair.png";
+import projectPortfolio from "../assets/projects/portfolio.png";
+import projectGJF from "../assets/projects/GJF.png";
+import projectJogral from "../assets/projects/Jogral.png"
+import projectFibonacci from "../assets/projects/Fibonacci.png";
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
@@ -112,7 +113,7 @@ export const EXPERIENCES_EN = [
 export const PROJECTS_PT = [
   {
     title: "CineMagic",
-    image: project1,
+    image: projectAiNet,
     description:
       "Este projeto focou-se no desenvolvimento de uma aplicação web utilizando o framework Laravel para gerir sessões de filmes, teatros e vendas de ingressos, bem como controlar a ocupação dos assentos durante as sessões. Foi uma experiência enriquecedora que me proporcionou um aprendizado profundo e com a qual me identifiquei fortemente.",
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
@@ -120,7 +121,7 @@ export const PROJECTS_PT = [
   },
   {
     title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA",
-    image: project2,
+    image: projectWheelChair,
     description:
        `Este projeto foi o meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js,
         que permitia o controle dos movimentos de uma cadeira de rodas elétrica por meio de comandos de voz utilizando Inteligência Artificial.`,
@@ -129,7 +130,7 @@ export const PROJECTS_PT = [
   },
   {
     title: "Website de Portfólio",
-    image: project3,
+    image: projectPortfolio,
     description:
       "Um site de portfólio pessoal para exibir os meus projetos, habilidades e informações de contato. O primeiro projeto usando React que me ajudou a aprender através desta nova framework.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
@@ -137,15 +138,23 @@ export const PROJECTS_PT = [
   },
   {
     title: "Projeto Grupo de Jovens de Fornos",
-    image: project4,
+    image: projectGJF,
     description:
       "Um site do Grupo Jovem de Fornos desenvolvido para apresentar informações sobre um grupo de jovens que organiza atividades e eventos em Fornos, Santa Maria da Feira. O objetivo principal é reunir jovens para partilhar experiências, promover a fé e o envolvimento comunitário. ",
     technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
     link:"https://grupojovensfornos.vercel.app/",
   },
   {
+    title: "Projeto Jogral Bar & Brasserie",
+    image: projectJogral,
+    description:
+      "Um site moderno para o Jogral Bar & Brasserie que destaca os seus snacks, bebidas artesanais e ambiente acolhedor. A plataforma é totalmente responsiva e oferece uma experiência de navegação fluida, permitindo aos clientes explorar o menu e descobrir mais sobre este espaço vibrante e descontraído.",
+    technologies: ["React", "Javascript", "CSS", "HTML"],
+    link:"https://jogralbarbrasserie.vercel.app/",
+  },
+  {
     title: "Calculadora Fibonacci",
-    image: project5,
+    image: projectFibonacci,
     description:
       "Um projeto de inicialização ás ferramentas Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
     technologies: ["Quarkus", "Spring Boot", "Java"],
@@ -156,7 +165,7 @@ export const PROJECTS_PT = [
 export const PROJECTS_EN = [
   {
     title: "CineMagic",
-    image: project1,
+    image: projectAiNet,
     description:
       "This project focused on developing a web application using the Laravel framework to manage movie sessions, theaters, and ticket sales, as well as control seat occupancy during the sessions. It was an enriching experience that provided me with profound learning and with which I strongly identified.",
     technologies: ["HTML", "CSS", "Laravel", "Javascript", "MySQL"],
@@ -164,7 +173,7 @@ export const PROJECTS_EN = [
   },
   {
     title: "AI-Powered Wheelchair",
-    image: project2,
+    image: projectWheelChair,
     description:
       "This project was my final course project, with the objective of developing a new web application on a Raspberry Pi using the Vue.js framework, which allowed for the control of an electric wheelchair's movements through voice commands utilizing Artificial Intelligence. This challenging project enabled me to expand and solidify my technical knowledge, effectively preparing me for the job market.",
     technologies: ["HTML", "CSS", "Javascript", "Python", "Tensorflow", "Vue.Js"],
@@ -172,7 +181,7 @@ export const PROJECTS_EN = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: projectPortfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. The first project using React that helped me learn through this new framework.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion", "MongoDB"],
@@ -180,15 +189,22 @@ export const PROJECTS_EN = [
   },
   {
     title: "Grupo de Jovens de Fornos Project",
-    image: project4,
+    image: projectGJF,
     description: 
       "A website for the Grupo Jovem de Fornos developed to provide information about a youth group organizing activities and events in Fornos, Santa Maria da Feira. The main goal is to bring young people together to share experiences, promote faith, and encourage community involvement.",
     technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
     link:"https://grupojovensfornos.vercel.app/",
   },
   {
+    title: "Projeto Jogral Bar & Brasserie",
+    image: projectJogral,
+    description:"A modern website for Jogral Bar & Brasserie that highlights its snacks, craft drinks, and cozy atmosphere. The platform is fully responsive and offers a smooth browsing experience, allowing customers to explore the menu and learn more about this vibrant and relaxed space.",
+    technologies: ["React", "Javascript", "CSS", "HTML"],
+    link:"https://jogralbarbrasserie.vercel.app/",
+  },
+  {
     title: "Fibonacci Calculator",
-    image: project5,
+    image: projectFibonacci,
     description:
       "A project to initialize the Quarkus and Spring Boot tools with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
     technologies: ["Quarkus", "Spring Boot", "Java"],
