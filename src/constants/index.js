@@ -29,13 +29,6 @@ Beyond coding, I enjoy staying active and exploring new technologies. When I'm n
 
 export const EXPERIENCES_PT = [
   {
-    year: "Presente",
-    role: "A Determinar",
-    company: "WithUs",
-    description: "Em resposta a ser contactado pela withUs, uma empresa especializada em serviços de consultoria e design personalizado de produtos e entrega, foram-me oferecidos desafios para expandir ainda mais os meus conhecimentos e para introduzir-me a novas tecnologias como React, Quarkus e Spring Boot.",
-    technologies: ["React", "Spring Boot", "Quarkus"]
-  },
-  {
     year: "2022 - 2024",
     role: "3º e 4º ano de Engenharia Informática",
     company: "Instituto Politécnico de Leiria",
@@ -72,13 +65,6 @@ export const EXPERIENCES_PT = [
 ];
 
 export const EXPERIENCES_EN = [
-  {
-    year: "Present",
-    role: "To Be Determined",
-    company: "WithUs",
-    description: "In response to being contacted by withUs, a company specialized in consulting services and product custom design and delivery, I was offered challenges to further expand my knowledge and to introduce me to new technologies such as React, Quarkus, and Spring Boot.",
-    technologies: ["React", "Spring Boot", "Quarkus"]
-  },
   {
     year: "2022 - 2024",
     role: "3rd and 4th year of Computer Engineering",
