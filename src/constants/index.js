@@ -98,7 +98,7 @@ export const EXPERIENCES_EN = [
 
 export const PROJECTS_PT = [
   {
-    title: "CineMagic",
+    title: "CineMagic - Nota Final: 18",
     image: projectAiNet,
     description:
       "Este projeto focou-se no desenvolvimento de uma aplicação web utilizando o framework Laravel para gerir sessões de filmes, teatros e vendas de ingressos, bem como controlar a ocupação dos assentos durante as sessões. Foi uma experiência enriquecedora que me proporcionou um aprendizado profundo e com a qual me identifiquei fortemente.",
@@ -106,7 +106,7 @@ export const PROJECTS_PT = [
     link:null,
   },
   {
-    title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA",
+    title: "Sistema de Comando por Voz para Cadeiras de Rodas com IA - Nota Final: 15",
     image: projectWheelChair,
     description:
        `Este projeto foi o meu projeto final de curso, com o objetivo de desenvolver uma nova aplicação web em um Raspberry Pi utilizando o framework Vue.js,
@@ -142,7 +142,7 @@ export const PROJECTS_PT = [
     title: "Calculadora Fibonacci",
     image: projectFibonacci,
     description:
-      "Um projeto de inicialização ás ferramentas Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
+      "Um projeto de inicialização ás frameworks Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
     technologies: ["Quarkus", "Spring Boot", "Java"],
     link:null,
   },
@@ -150,7 +150,7 @@ export const PROJECTS_PT = [
 
 export const PROJECTS_EN = [
   {
-    title: "CineMagic",
+    title: "CineMagic - Final Grade: 18",
     image: projectAiNet,
     description:
       "This project focused on developing a web application using the Laravel framework to manage movie sessions, theaters, and ticket sales, as well as control seat occupancy during the sessions. It was an enriching experience that provided me with profound learning and with which I strongly identified.",
@@ -158,7 +158,7 @@ export const PROJECTS_EN = [
     link:null,
   },
   {
-    title: "AI-Powered Wheelchair",
+    title: "AI-Powered Wheelchair - Final Grade: 15",
     image: projectWheelChair,
     description:
       "This project was my final course project, with the objective of developing a new web application on a Raspberry Pi using the Vue.js framework, which allowed for the control of an electric wheelchair's movements through voice commands utilizing Artificial Intelligence. This challenging project enabled me to expand and solidify my technical knowledge, effectively preparing me for the job market.",
@@ -192,7 +192,7 @@ export const PROJECTS_EN = [
     title: "Fibonacci Calculator",
     image: projectFibonacci,
     description:
-      "A project to initialize the Quarkus and Spring Boot tools with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
+      "A project to initialize the Quarkus and Spring Boot frameworks with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
     technologies: ["Quarkus", "Spring Boot", "Java"],
     link:null,
   },
