@@ -36,7 +36,7 @@ export const EXPERIENCES_PT = [
     Nesta área, fui apresentado à Inteligência Artificial, aprendi mais ferramentas de desenvolvimento web como Vue.js, aprofundei ainda mais os meus conhecimentos no Java e SQL, 
     realizei análises exploratórias de dados, desenvolvi uma aplicação Android e aprendi C#.
      Para o meu projeto final, escolhi expandir ainda mais as minhas habilidades em Python.`,
-    technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#"],
+    technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#", "ASP.NET", "Android"],
   },
   {
     year: "2021 - 2022",
@@ -70,7 +70,7 @@ export const EXPERIENCES_EN = [
     role: "3rd and 4th year of Computer Engineering",
     company: "Polytechnic Institute of Leiria",
     description: `After exploring the IT field and giving it some thought, I decided to switch to the Information Systems (IS) track, where I stayed until the end of my studies. In this area, I was introduced to Artificial Intelligence, learned additional web development tools like Vue.js, further deepened my knowledge of Java and SQL, conducted exploratory data analysis, developed an Android application, and learned C#. For my final project, I chose to expand my Python skills even further.`,
-    technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#"],
+    technologies: ["Javascript", "Vue.js", "Java", "SQL", "Python", "HTML", "CSS", "C#", "ASP.NET", "Android"],
   },
   {
     year: "2021 - 2022",

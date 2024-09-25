@@ -1,9 +1,13 @@
 import React, { useContext } from "react";
+
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb } from "react-icons/si"; // Importe o ícone do MongoDB
+import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb } from "react-icons/si";
+import { TiHtml5 } from "react-icons/ti";
 import { FaNodeJs } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+
 import { motion } from "framer-motion";
-import { LanguageContext } from '../context/LanguageContext'; // Importe o contexto
+import { LanguageContext } from '../context/LanguageContext'; 
 
 const iconVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -19,7 +23,7 @@ const iconVariants = {
 };
 
 const Technologies = () => {
-  const { language } = useContext(LanguageContext); // Obtenha o idioma atual
+  const { language } = useContext(LanguageContext); 
   
   return (
     <div className="border-b border-neutral-800 pb-24 lg:mb-35">
@@ -33,9 +37,10 @@ const Technologies = () => {
           { Icon: SiSpringboot, color: "#6DB33F" },
           { Icon: SiQuarkus, color: "#4695EB" },
           { Icon: SiTensorflow, color: "#FF6F00" },
-          { Icon: SiOracle, color: "#F80000" },
           { Icon: SiAngular, color: "#DD0031" },
-          { Icon: SiMongodb, color: "#47A248" } // Adicione o MongoDB aqui
+          { Icon: SiMongodb, color: "#47A248" } ,
+          { Icon: TiHtml5, color: "#E34F26" },
+          { Icon: RiTailwindCssFill, color: "#06B6D4" },
         ].map(({ Icon, color }, index) => (
           <motion.div
             key={index}
