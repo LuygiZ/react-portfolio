@@ -15,7 +15,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}>
-                {language === 'PT' ? 'Projetos Desenvolvidos' : 'Projects Developed'}
+                {language === 'PT' ? 'Alguns Projetos Desenvolvidos' : 'Some Developed Projects'}
             </motion.h1>
 
             <div>

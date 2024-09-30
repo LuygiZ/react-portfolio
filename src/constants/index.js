@@ -138,14 +138,6 @@ export const PROJECTS_PT = [
     technologies: ["React", "Javascript", "CSS", "HTML"],
     link:"https://jogralbarbrasserie.vercel.app/",
   },
-  {
-    title: "Calculadora Fibonacci",
-    image: projectFibonacci,
-    description:
-      "Um projeto de inicialização ás frameworks Quarkus e Spring Boot com o objetivo de recriar uma calculadora que conseguisse calcular o n-ésimo número de Fibonacci de maneira eficiente",
-    technologies: ["Quarkus", "Spring Boot", "Java"],
-    link:null,
-  },
 ];
 
 export const PROJECTS_EN = [
@@ -187,14 +179,6 @@ export const PROJECTS_EN = [
     description:"A modern website for Jogral Bar & Brasserie that highlights its snacks, craft drinks, and cozy atmosphere. The platform is fully responsive and offers a smooth browsing experience, allowing customers to explore the menu and learn more about this vibrant and relaxed space.",
     technologies: ["React", "Javascript", "CSS", "HTML"],
     link:"https://jogralbarbrasserie.vercel.app/",
-  },
-  {
-    title: "Fibonacci Calculator",
-    image: projectFibonacci,
-    description:
-      "A project to initialize the Quarkus and Spring Boot frameworks with the objective of recreating a calculator that can efficiently calculate the n-th Fibonacci number.",
-    technologies: ["Quarkus", "Spring Boot", "Java"],
-    link:null,
   },
 ];
 
