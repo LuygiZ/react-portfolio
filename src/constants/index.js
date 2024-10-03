@@ -11,7 +11,7 @@ export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécni
  Considero-me uma pessoa profundamente dedicada, com uma notável facilidade para trabalhar em equipa, sempre recetivo a novas experiências e desafios. 
  Ao longo do meu percurso académico, tive a oportunidade de participar em diversos projetos que me permitiram não só consolidar, mas também aplicar, os conhecimentos adquiridos.`;
 
-export const HERO_CONTENT_EN = `At 22 years old, I enrolled at the Polytechnic Institute of Leiria (IPL) in 2020, where I pursued a degree in Computer Engineering.
+export const HERO_CONTENT_EN = `I am 22 years old and I enrolled at the Polytechnic Institute of Leiria (IPL) in 2020, where I pursued a degree in Computer Engineering.
  My interest in programming and computing emerged at the age of 15, and since then, 
  I have been deepening my knowledge in this field, with a strong desire to continue learning and evolving. 
  I consider myself a highly dedicated person, with a remarkable ability to work in a team, always open to new experiences and challenges. 
