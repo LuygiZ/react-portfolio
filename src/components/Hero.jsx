@@ -1,5 +1,7 @@
 import { HERO_CONTENT_PT, HERO_CONTENT_EN } from "../constants";
 import profilePic from "../assets/LuisProfile3.png";
+import iplLogo from "../assets/ipl.png";
+import udemyLogo from "../assets/udemy.png";
 import { motion } from "framer-motion";
 import { useContext } from 'react';
 import { LanguageContext } from '../context/LanguageContext';
@@ -15,6 +17,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}>
+        
         <motion.div 
           className="w-full lg:w-1/2"
           initial={{ x: -100, opacity: 0 }}
@@ -22,8 +25,19 @@ const Hero = () => {
           transition={{ duration: 0.8 }}>
           <div className="flex flex-col items-center lg:items-start">
 
+            {/* Logos container - now centralized */}
+            <motion.div
+              className="flex justify-center lg:justify-start items-center space-x-8 mb-8 mt-4"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+            >
+              <img src={iplLogo} alt="Polytechnic of Leiria" className="h-16 lg:h-20" />
+              <img src={udemyLogo} alt="Udemy" className="h-12 lg:h-16" />
+            </motion.div>
+
             <motion.h1 
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight lg:mt-8 lg:text-8xl"
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1 }}>
@@ -46,7 +60,7 @@ const Hero = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.6 }} >
+              transition={{ duration: 1, delay: 0.6 }}>
               {HERO_CONTENT}
             </motion.p>
           </div>
