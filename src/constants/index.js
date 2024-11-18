@@ -3,6 +3,7 @@ import projectWheelChair from "../assets/projects/wheelchair.png";
 import projectPortfolio from "../assets/projects/portfolio.png";
 import projectGJF from "../assets/projects/GJF.png";
 import projectJogral from "../assets/projects/Jogral.png"
+import csharpcertificate from "../assets/certificates/csharpcertificate.jpg"
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
@@ -189,4 +190,27 @@ export const CONTACT_PT = {
 export const CONTACT_EN = {
   address: "Ourém, Santarém",
   email: "luismanuelsantos2801@gmail.com",
-};
+}; 
+
+export const CERTIFICATES_PT = [
+  {
+    id: 1,
+    title: "Desenvolvimento Web com C#, ASP.NET MVC, MS SQL, C# OOP",
+    issuer: "Udemy",
+    date: "Nov. 2024",
+    image: csharpcertificate,
+    url: "https://www.udemy.com/certificate/UC-d0067b77-951e-4ccd-a304-ee16772a0677/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+  }
+];
+
+export const CERTIFICATES = [
+  {
+    id: 1,
+    title: "Web development with C#, ASP.NET MVC, MS SQL, C# OOP",
+    issuer: "Udemy",
+    date: "Nov. 2024",
+    image: csharpcertificate,
+    url: "https://www.udemy.com/certificate/UC-d0067b77-951e-4ccd-a304-ee16772a0677/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+  }
+];
+

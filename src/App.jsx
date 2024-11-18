@@ -9,6 +9,7 @@ import FeedbackForm from './components/FeedbackForm';
 import { Analytics } from "@vercel/analytics/react";
 import { useContext } from 'react';
 import { LanguageContext } from './context/LanguageContext';
+import Certificates from './components/Certificates';
 
 const App = () => {
   const { language } = useContext(LanguageContext); // Obter idioma atual
@@ -23,6 +24,7 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
+        <Certificates />
         <Experience />
         <Projects />
         <Contact />
