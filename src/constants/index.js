@@ -4,6 +4,7 @@ import projectPortfolio from "../assets/projects/portfolio.png";
 import projectGJF from "../assets/projects/GJF.png";
 import projectJogral from "../assets/projects/Jogral.png"
 import csharpcertificate from "../assets/certificates/csharpcertificate.jpg"
+import cambridgecertificate from "../assets/certificates/cambridgecertificate.png"
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
@@ -200,7 +201,15 @@ export const CERTIFICATES_PT = [
     date: "Nov. 2024",
     image: csharpcertificate,
     url: "https://www.udemy.com/certificate/UC-d0067b77-951e-4ccd-a304-ee16772a0677/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+  },
+  {
+    id: 2,
+    title: "Cambridge English: FCE (First Certificate in English)",
+    issuer: "Cambridge Assessment English",
+    date: "Set. 2020",
+    image: cambridgecertificate
   }
+
 ];
 
 export const CERTIFICATES = [
@@ -211,6 +220,13 @@ export const CERTIFICATES = [
     date: "Nov. 2024",
     image: csharpcertificate,
     url: "https://www.udemy.com/certificate/UC-d0067b77-951e-4ccd-a304-ee16772a0677/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com"
+  },
+  {
+    id: 2,
+    title: "Cambridge English: FCE (First Certificate in English)",
+    issuer: "Cambridge Assessment English",
+    date: "Sept. 2020",
+    image: cambridgecertificate
   }
 ];
 

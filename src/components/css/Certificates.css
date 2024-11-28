@@ -1,86 +1,87 @@
 .certificates-section {
-    padding: 4rem 2rem;
-    color: #f0f0f0;
-  }
-  
-  .certificates-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #e0e0e0;
-  }
-  
-  .certificates-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column size for smaller images */
-    gap: 2rem;
-  }
-  
-  .certificate-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    width: 100%; /* Ensure card fits its container */
-    max-width: 500px; /* Limit the size of the card */
-    margin: 0 auto; /* Center the card in its grid */
-  }
-  
-  .certificate-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .certificate-image {
-    width: 100%; /* Scale image to card width */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-  }
-  
-  .certificate-info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .certificate-card:hover .certificate-info {
-    opacity: 1;
-  }
-  
-  .certificate-info h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .certificate-info p {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .view-certificate-btn {
-    margin-top: 1rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #673ab7;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .view-certificate-btn:hover {
-    background-color: #512a94;
-  }
-  
+  padding: 4rem 2rem;
+  color: #f0f0f0;
+}
+
+.certificates-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta o tamanho das colunas automaticamente */
+  gap: 2rem;
+}
+
+.certificate-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%; /* Garante que o cartão ocupe a largura do container */
+  max-width: 500px; /* Limita o tamanho do cartão */
+  height: 400px; /* Define uma altura fixa */
+  margin: 0 auto; /* Centraliza o cartão na grade */
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-image {
+  width: 100%; /* Garante que a imagem ocupe toda a largura do cartão */
+  height: 100%; /* Garante que a imagem ocupe toda a altura do cartão */
+  object-fit: cover; /* Corta a imagem para preencher o espaço */
+  display: block;
+}
+
+.certificate-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.certificate-card:hover .certificate-info {
+  opacity: 1;
+}
+
+.certificate-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-info p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.view-certificate-btn {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #673ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.view-certificate-btn:hover {
+  background-color: #512a94;
+}

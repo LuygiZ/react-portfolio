@@ -31,14 +31,16 @@ const Certificates = () => {
                                     ? `Data: ${certificate.date}`
                                     : `Date: ${certificate.date}`}
                             </p>
-                            <a
-                                href={certificate.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="view-certificate-btn"
-                            >
-                                {language === "PT" ? "Ver Certificado" : "View Certificate"}
-                            </a>
+                            {certificate.url && (
+                                <a
+                                    href={certificate.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="view-certificate-btn"
+                                >
+                                    {language === "PT" ? "Ver Certificado" : "View Certificate"}
+                                </a>
+                            )}
                         </div>
                     </div>
                 ))}
