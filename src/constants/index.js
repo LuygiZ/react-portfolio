@@ -3,7 +3,7 @@ import projectWheelChair from "../assets/projects/wheelchair.png";
 import projectPortfolio from "../assets/projects/portfolio.png";
 import projectGJF from "../assets/projects/GJF.png";
 import projectJogral from "../assets/projects/Jogral.png"
-import csharpcertificate from "../assets/certificates/csharpcertificate.jpg"
+import csharpcertificate from "../assets/certificates/csharpcertificate.jpeg"
 import cambridgecertificate from "../assets/certificates/cambridgecertificate.png"
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
