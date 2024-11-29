@@ -18,7 +18,7 @@ const About = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        {language === 'PT' ? 'Sobre' : 'About'} 
+        {language === 'PT' ? 'Sobre' : 'About'}
         <span className="text-neutral-500"> {language === 'PT' ? 'Mim' : 'Me'}</span>
       </motion.h1>
 
@@ -53,7 +53,7 @@ const About = () => {
         >
           <div className="px-8 lg:px-16">
             <motion.p
-              className="my-2 max-w-xl py-6 relative z-20"
+              className="my-2 max-w-xl py-6 relative z-20 text-justify"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -61,6 +61,7 @@ const About = () => {
             >
               {ABOUT_TEXT}
             </motion.p>
+
           </div>
         </motion.div>
       </div>

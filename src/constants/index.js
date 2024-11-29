@@ -8,7 +8,8 @@ import cambridgecertificate from "../assets/certificates/cambridgecertificate.pn
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
- com um forte desejo de continuar a aprender e a evoluir. 
+ com um forte desejo de continuar a aprender e a evoluir.
+  
  Considero-me uma pessoa profundamente dedicada, com uma notável facilidade para trabalhar em equipa, sempre recetivo a novas experiências e desafios. 
  Ao longo do meu percurso académico, tive a oportunidade de participar em diversos projetos que me permitiram não só consolidar, mas também aplicar, os conhecimentos adquiridos.`;
 
@@ -18,12 +19,12 @@ export const HERO_CONTENT_EN = `I am 22 years old and I enrolled at the Polytech
  I consider myself a highly dedicated person, with a remarkable ability to work in a team, always open to new experiences and challenges. 
  Throughout my academic journey, I have had the opportunity to participate in various projects that have allowed me not only to consolidate but also to apply the knowledge I have acquired.`;
 
-export const ABOUT_TEXT_PT = `Sou recém-formado em engenharia informática com uma forte paixão e dedicação para criar aplicações web amigáveis e eficientes. 
+export const ABOUT_TEXT_PT = `Sou formado em engenharia informática com uma forte paixão e dedicação para criar aplicações web amigáveis e eficientes. 
 Tenho também um grande interesse em desenvolver projetos relacionados com machine learning, inteligência artificial, IoT e muito mais para oferecer e aprender. 
 Ao longo do meu percurso académico, trabalhei com uma variedade de tecnologias e estive sempre totalmente comprometido e motivado com todos os projetos em que estive envolvido.
 Além da programação, gosto de me manter ativo e explorar novas tecnologias. Quando não estou no computador, gosto de manter a forma e treinar regularmente.`;
 
-export const ABOUT_TEXT_EN = `I am a recent computer engineering graduate with a strong passion and dedication for creating user-friendly and efficient web applications. 
+export const ABOUT_TEXT_EN = `I am a computer engineering graduate with a strong passion and dedication for creating user-friendly and efficient web applications. 
 I also have a deep interest in developing projects related to machine learning, artificial intelligence, IoT and much more to give and learn. 
 I have worked with a variety of technologies and have always been fully committed to every project I was involved in during university. 
 Beyond coding, I enjoy staying active and exploring new technologies. When I'm not at the computer, I like to keep fit and train regularly.`;
