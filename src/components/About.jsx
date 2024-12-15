@@ -56,7 +56,7 @@ const About = () => {
               className="my-2 max-w-xl py-6 relative z-20 text-justify"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
               viewport={{ once: true }}
             >
               {ABOUT_TEXT}

@@ -16,21 +16,20 @@ const Hero = () => {
         className="flex flex-wrap lg:flex-nowrap"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}>
+        transition={{ duration: 0.3 }}>
         
         <motion.div 
           className="w-full lg:w-1/2"
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}>
+          transition={{ duration: 0.3 }}>
           <div className="flex flex-col items-center lg:items-start">
 
-            {/* Logos container - now centralized */}
             <motion.div
               className="flex justify-center lg:justify-start items-center space-x-8 mb-8 mt-4"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
             >
               <img src={iplLogo} alt="Polytechnic of Leiria" className="h-16 lg:h-20" />
               <img src={udemyLogo} alt="Udemy" className="h-12 lg:h-16" />

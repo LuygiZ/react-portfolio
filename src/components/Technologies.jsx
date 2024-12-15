@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb } from "react-icons/si";
-import { TiHtml5 } from "react-icons/ti";
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -16,7 +15,7 @@ const iconVariants = {
     y: 0,
     transition: {
       delay: i * 0.2,
-      duration: 0.6,
+      duration: 0.3,
       ease: "easeInOut",
     },
   }),
@@ -39,8 +38,8 @@ const Technologies = () => {
           { Icon: SiTensorflow, color: "#FF6F00" },
           { Icon: SiAngular, color: "#DD0031" },
           { Icon: SiMongodb, color: "#47A248" } ,
-          { Icon: TiHtml5, color: "#E34F26" },
           { Icon: RiTailwindCssFill, color: "#06B6D4" },
+          { Icon: SiOracle, color: "#F80000" },
         ].map(({ Icon, color }, index) => (
           <motion.div
             key={index}
