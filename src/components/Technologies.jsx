@@ -26,7 +26,7 @@ const Technologies = () => {
   
   return (
     <div className="border-b border-neutral-800 pb-24 lg:mb-35">
-      <h1 className="my-20 text-center text-4xl" > {language === 'PT' ? 'Tecnologias' : 'Technologies'} </h1>
+      <h1 className="my-20 text-center text-4xl" > {language === 'PT' ? 'Skills' : 'Skills'} </h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         {[ 
           { Icon: RiReactjsLine, color: "#61DAFB" },
