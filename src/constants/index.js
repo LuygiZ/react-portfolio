@@ -125,7 +125,7 @@ export const PROJECTS_PT = [
     link:null,
   },
   {
-    title: "Projeto Grupo de Jovens de Fornos",
+    title: "Projeto Grupo de Jovens de Fornos (Trabalho em progresso)",
     image: projectGJF,
     description:
       "Um site do Grupo Jovem de Fornos desenvolvido para apresentar informações sobre um grupo de jovens que organiza atividades e eventos em Fornos, Santa Maria da Feira. O objetivo principal é reunir jovens para partilhar experiências, promover a fé e o envolvimento comunitário. ",
@@ -176,7 +176,7 @@ export const PROJECTS_EN = [
     link:"https://grupojovensfornos.vercel.app/",
   },
   {
-    title: "Projeto Jogral Bar & Brasserie",
+    title: "Projeto Jogral Bar & Brasserie (Work in Progress)",
     image: projectJogral,
     description:"A modern website for Jogral Bar & Brasserie that highlights its snacks, craft drinks, and cozy atmosphere. The platform is fully responsive and offers a smooth browsing experience, allowing customers to explore the menu and learn more about this vibrant and relaxed space.",
     technologies: ["React", "Javascript", "CSS", "HTML"],
