@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb } from "react-icons/si";
+import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb, SiDotnet } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -26,9 +26,9 @@ const Technologies = () => {
   
   return (
     <div className="border-b border-neutral-800 pb-24 lg:mb-35">
-      <h1 className="my-20 text-center text-4xl" > {language === 'PT' ? 'Skills' : 'Skills'} </h1>
+      <h1 className="my-20 text-center text-4xl">{language === 'PT' ? 'Skills' : 'Skills'}</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        {[ 
+        {[
           { Icon: RiReactjsLine, color: "#61DAFB" },
           { Icon: FaNodeJs, color: "#68A063" },
           { Icon: SiMysql, color: "#00758F" },
@@ -37,9 +37,10 @@ const Technologies = () => {
           { Icon: SiQuarkus, color: "#4695EB" },
           { Icon: SiTensorflow, color: "#FF6F00" },
           { Icon: SiAngular, color: "#DD0031" },
-          { Icon: SiMongodb, color: "#47A248" } ,
+          { Icon: SiMongodb, color: "#47A248" },
           { Icon: RiTailwindCssFill, color: "#06B6D4" },
           { Icon: SiOracle, color: "#F80000" },
+          { Icon: SiDotnet, color: "#512BD4" },
         ].map(({ Icon, color }, index) => (
           <motion.div
             key={index}
@@ -48,7 +49,8 @@ const Technologies = () => {
             variants={iconVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true }} >
+            viewport={{ once: true }}
+          >
             <Icon className="text-7xl" style={{ color }} />
           </motion.div>
         ))}

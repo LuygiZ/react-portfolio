@@ -5,6 +5,7 @@ import projectGJF from "../assets/projects/GJF.png";
 import projectJogral from "../assets/projects/Jogral.png"
 import csharpcertificate from "../assets/certificates/csharpcertificate.jpeg"
 import cambridgecertificate from "../assets/certificates/cambridgecertificate.png"
+import licenciatura from "../assets/certificates/licenciatura.jpg"
 
 export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
@@ -209,6 +210,13 @@ export const CERTIFICATES_PT = [
     issuer: "Cambridge Assessment English",
     date: "Set. 2020",
     image: cambridgecertificate
+  },
+  {
+    id: 3,
+    title: "Carta de Curso de Licenciatura em Engenharia Informática",
+    issuer: "Instituto Politécnico de Leiria",
+    date: "Jan. 2025",
+    image: licenciatura
   }
 
 ];
@@ -228,6 +236,13 @@ export const CERTIFICATES = [
     issuer: "Cambridge Assessment English",
     date: "Sept. 2020",
     image: cambridgecertificate
+  },
+  {
+    id: 3,
+    title: "Bacheelor's Degree in Computer Engineering",
+    issuer: "Polytechnic Institute of Leiria",
+    date: "Jan. 2025",
+    image: licenciatura
   }
 ];
 
