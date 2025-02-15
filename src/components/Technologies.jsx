@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMysql, SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiOracle, SiAngular, SiMongodb, SiDotnet } from "react-icons/si";
+import { SiLaravel, SiSpringboot, SiQuarkus, SiTensorflow, SiAngular, SiMongodb, SiDotnet, SiMicrosoftsqlserver } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -31,7 +31,6 @@ const Technologies = () => {
         {[
           { Icon: RiReactjsLine, color: "#61DAFB" },
           { Icon: FaNodeJs, color: "#68A063" },
-          { Icon: SiMysql, color: "#00758F" },
           { Icon: SiLaravel, color: "#FF2D20" },
           { Icon: SiSpringboot, color: "#6DB33F" },
           { Icon: SiQuarkus, color: "#4695EB" },
@@ -39,8 +38,8 @@ const Technologies = () => {
           { Icon: SiAngular, color: "#DD0031" },
           { Icon: SiMongodb, color: "#47A248" },
           { Icon: RiTailwindCssFill, color: "#06B6D4" },
-          { Icon: SiOracle, color: "#F80000" },
           { Icon: SiDotnet, color: "#512BD4" },
+          { Icon: SiMicrosoftsqlserver, color: "#CC2927" },
         ].map(({ Icon, color }, index) => (
           <motion.div
             key={index}
