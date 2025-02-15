@@ -239,7 +239,7 @@ export const CERTIFICATES = [
   },
   {
     id: 3,
-    title: "Bacheelor's Degree in Computer Engineering",
+    title: "Bachelor's Degree in Computer Engineering",
     issuer: "Polytechnic Institute of Leiria",
     date: "Jan. 2025",
     image: licenciatura
