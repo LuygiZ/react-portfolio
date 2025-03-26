@@ -133,14 +133,6 @@ export const PROJECTS_PT = [
     technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
     link:"https://grupojovensfornos.vercel.app/",
   },
-  {
-    title: "Projeto Jogral Bar & Brasserie",
-    image: projectJogral,
-    description:
-      "Um site moderno para o Jogral Bar & Brasserie que destaca os seus snacks, bebidas artesanais e ambiente acolhedor. A plataforma é totalmente responsiva e oferece uma experiência de navegação fluida, permitindo aos clientes explorar o menu e descobrir mais sobre este espaço vibrante e descontraído.",
-    technologies: ["React", "Javascript", "CSS", "HTML"],
-    link:"https://jogralbarbrasserie.vercel.app/",
-  },
 ];
 
 export const PROJECTS_EN = [
@@ -175,13 +167,6 @@ export const PROJECTS_EN = [
       "A website for the Grupo Jovem de Fornos developed to provide information about a youth group organizing activities and events in Fornos, Santa Maria da Feira. The main goal is to bring young people together to share experiences, promote faith, and encourage community involvement.",
     technologies: ["React", "Javascript", "Web3Forms", "CSS", "MongoDB", "HTML"],
     link:"https://grupojovensfornos.vercel.app/",
-  },
-  {
-    title: "Projeto Jogral Bar & Brasserie (Work in Progress)",
-    image: projectJogral,
-    description:"A modern website for Jogral Bar & Brasserie that highlights its snacks, craft drinks, and cozy atmosphere. The platform is fully responsive and offers a smooth browsing experience, allowing customers to explore the menu and learn more about this vibrant and relaxed space.",
-    technologies: ["React", "Javascript", "CSS", "HTML"],
-    link:"https://jogralbarbrasserie.vercel.app/",
   },
 ];
 
