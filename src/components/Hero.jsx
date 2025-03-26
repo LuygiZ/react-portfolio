@@ -1,5 +1,5 @@
 import { HERO_CONTENT_PT, HERO_CONTENT_EN } from "../constants";
-import profilePic from "../assets/LuisProfile3.png";
+import profilePic from "../assets/IMG_8591.png";
 import iplLogo from "../assets/ipl.png";
 import udemyLogo from "../assets/udemy.png";
 import { motion } from "framer-motion";

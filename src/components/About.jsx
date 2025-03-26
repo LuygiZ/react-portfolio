@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import aboutImage from "../assets/LuisProfile4.png";
+import aboutImage from "../assets/LuisProfile3.png";
 import { ABOUT_TEXT_PT, ABOUT_TEXT_EN } from "../constants";
 import { motion } from "framer-motion";
 import { useContext } from 'react';
