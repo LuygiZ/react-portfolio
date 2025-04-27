@@ -1,5 +1,5 @@
 import { HERO_CONTENT_PT, HERO_CONTENT_EN } from "../constants";
-import profilePic from "../assets/IMG_8591.png";
+import profilePic from "../assets/Luís_Santos.png";
 import iplLogo from "../assets/ipl.png";
 import udemyLogo from "../assets/udemy.png";
 import { motion } from "framer-motion";
@@ -74,7 +74,7 @@ const Hero = () => {
             <motion.img 
               src={profilePic} 
               alt="Luis Santos" 
-              className="w-full max-w-xs lg:max-w-none lg:w-100 lg:h-85 -mt-12 lg:-mt-60"
+              className="w-full max-w-xs lg:max-w-none lg:w-100 lg:h-85 -mt-12"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}

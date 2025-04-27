@@ -7,14 +7,14 @@ import csharpcertificate from "../assets/certificates/csharpcertificate.jpeg"
 import cambridgecertificate from "../assets/certificates/cambridgecertificate.png"
 import licenciatura from "../assets/certificates/licenciatura.jpg"
 
-export const HERO_CONTENT_PT = `Tenho 22 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
+export const HERO_CONTENT_PT = `Tenho 23 anos, ingressei no Instituto Politécnico de Leiria (IPL) em 2020, onde segui o curso de Engenharia Informática.
  O meu interesse pela programação e informática despertou aos 15 anos, e desde então, tenho vindo a aprofundar os meus conhecimentos nesta área, 
  com um forte desejo de continuar a aprender e a evoluir.
   
  Considero-me uma pessoa profundamente dedicada, com uma notável facilidade para trabalhar em equipa, sempre recetivo a novas experiências e desafios. 
  Ao longo do meu percurso académico, tive a oportunidade de participar em diversos projetos que me permitiram não só consolidar, mas também aplicar, os conhecimentos adquiridos.`;
 
-export const HERO_CONTENT_EN = `I am 22 years old and I enrolled at the Polytechnic Institute of Leiria (IPL) in 2020, where I pursued a degree in Computer Engineering.
+export const HERO_CONTENT_EN = `I am 23 years old and I enrolled at the Polytechnic Institute of Leiria (IPL) in 2020, where I pursued a degree in Computer Engineering.
  My interest in programming and computing emerged at the age of 15, and since then, 
  I have been deepening my knowledge in this field, with a strong desire to continue learning and evolving. 
  I consider myself a highly dedicated person, with a remarkable ability to work in a team, always open to new experiences and challenges. 
