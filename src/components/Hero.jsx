@@ -45,15 +45,27 @@ const Hero = () => {
               Luís Santos
             </motion.h1>
 
-            <motion.span 
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 1.1 }}
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent text-center"
-              initial={{ y: 50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.3 }}>
-              {language === 'PT' ? 'Licenciado em Engenharia Informática | Mestrado em progresso...' : "Bachelor's degree in Computer Engineering"}
-            </motion.span>
+            <div className="text-center">
+              <motion.span 
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 1.1 }}
+                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent block"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.3 }}>
+                Licenciado em Engenharia Informática
+              </motion.span>
+
+              <motion.span 
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 1.1 }}
+                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent block"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.5 }}>
+                Mestrado em progresso...
+              </motion.span>
+            </div>
 
             <motion.p 
               className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
