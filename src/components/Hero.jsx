@@ -1,6 +1,7 @@
 import { HERO_CONTENT_PT, HERO_CONTENT_EN } from "../constants";
 import profilePic from "../assets/Luís_Santos.png";
 import iplLogo from "../assets/ipl.png";
+import isepLogo from "../assets/isep.png";
 import udemyLogo from "../assets/udemy.png";
 import { motion } from "framer-motion";
 import { useContext } from 'react';
@@ -33,6 +34,7 @@ const Hero = () => {
             >
               <img src={iplLogo} alt="Polytechnic of Leiria" className="h-16 lg:h-20" />
               <img src={udemyLogo} alt="Udemy" className="h-12 lg:h-16" />
+              <img src={isepLogo} alt="ISEP" className="h-12 lg:h-16" />
             </motion.div>
 
             <motion.h1 
@@ -46,13 +48,11 @@ const Hero = () => {
             <motion.span 
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 1.1 }}
-              drag="x"
-              dragConstraints={{ left: -100, right: 100 }} 
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent text-center"
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.3 }}>
-              {language === 'PT' ? 'Licenciado em Engenharia Informática' : "Bachelor's degree in Computer Engineering"}
+              {language === 'PT' ? 'Licenciado em Engenharia Informática | Mestrado em progresso...' : "Bachelor's degree in Computer Engineering"}
             </motion.span>
 
             <motion.p 
